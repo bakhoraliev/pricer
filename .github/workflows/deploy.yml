@@ -29,7 +29,7 @@ jobs:
 
       - name: 📄 Export notebook
         run: |
-          poetry run marimo export html-wasm calculator.py -o path/to/output --mode run
+          poetry run marimo export html-wasm calculator.py -o _site --mode run
 
       - name: 📤 Upload artifact
         uses: actions/upload-pages-artifact@v3
