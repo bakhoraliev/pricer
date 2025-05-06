@@ -1,0 +1,18 @@
+[project]
+name = "pricer"
+version = "0.1.0"
+description = "product price calculator based on the product price and shipping price"
+authors = [
+    {name = "Ilkhomidin Bakhoraliev",email = "bakhoraliev.ilkhomidin@proton.me"}
+]
+license = {text = "The Unlicense"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "marimo (>=0.13.4,<0.14.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
